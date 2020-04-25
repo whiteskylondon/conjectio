@@ -1,5 +1,5 @@
 ---
-date: 2020-04-25T22:43:31Z
+date: 2020-04-25T22:43:31.000+00:00
 title: Recreating Cambridge Analytica Python stack
 author: Daniel Roy
 hero_image: "/content/images/ca_scikit_02.jpeg"
@@ -15,17 +15,15 @@ The starting point was the excellent “_Weapons of Micro Destruction: How Our �
 A former job offer “Cambridge Analytica Lead Data Scientist Job Description”: https://pastebin.com/LMKN64Da
 The explicit “Private traits and attributes are predictable from digital records of human behavior” paper, referenced by many sources as a key-stone behind CA’s architecture: https://www.pnas.org/content/pnas/110/15/5802.full.pdf
 
-> 
 > Data’s far more valuable than models because if you have the data it’s very easy to build models — because models use just a few well understood statistical techniques to make them. I was able to go from not doing machine learning to knowing what I need to know in one week. That’s all it took. — Aleksandr Kogan
 
 All in all, our intuition is that CA was using scikit-learn in its stack. This intuition is reinforced by the job offer above, for the CA head of Data Science. The job offer was apparently posted in January 2018. We can’t confirm its authenticity, but if it is, that gives us some pretty good insights on the tools used:
 
 * scikit-learn
-* SciPy 
-* SQL 
-* Hadoop 
+* SciPy
+* SQL
+* Hadoop
 * Spark
-
 
 So, Hadoop was used for storing and retrieving data sets across clusters. Spark was used for data processing and, more precisely, I suppose PySpark. For now, we will leave the Data Storage questions aside and we will focus onto scikit-learn.
 
@@ -72,13 +70,11 @@ However, according to Smith’s Medium publication we shall look into Linear mod
 
 Linear LASSO, standing for ‘Least Absolute Shrinkage’ and ‘Selection Operator’, is equally easily interpretable. Search LASSO in the scikit documentation and you will get 691 references. Smith’s publication goes in incredible depth into the behaviour of the algorithm and scikit-learn has an range of variants of the LASSO: LassoLars, LassoCV, LassoLarsIC.
 
-scikit tools
+**_scikit tools_**
 
-from sklearn.linear_model import Lasso
-
-from sklearn.linear_model import LassoCV
-
-from sklearn.linear_model import LassoLarsCV
+    from sklearn.linear_model import Lasso 
+    from sklearn.linear_model import LassoCV
+    from sklearn.linear_model import LassoLarsCV
 
 **The clustering approach**
 
