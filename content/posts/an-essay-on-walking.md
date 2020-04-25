@@ -31,11 +31,7 @@ Recreating CA method with sci-kit algos
 
 Time to start the ground work. And to go through the sci-kit documentation
 
-https://scikit-learn.org/stable/_downloads/scikit-learn-docs.pdf
-
-![](/content/images/kunj-parekh-H69EgivmCjE-unsplash.jpg)
-
-To resume: on one side CA had users, a list of likes for each user and, for a subset of the users, the corresponding OCEAN scores, on the big five personality traits:
+https://scikit-learn.org/stable/_downloads/scikit-learn-docs.pdfTo resume: on one side CA had users, a list of likes for each user and, for a subset of the users, the corresponding OCEAN scores, on the big five personality traits:
 
 Openness to experience (inventive/curious vs. consistent/cautious)
 Conscientiousness (efficient/organized vs. easy-going/careless)
@@ -48,7 +44,7 @@ If we first focus on the first subset of users, i.e. the users replying to the p
 
 Intuitively this calls for singular value decomposition and redundancy elimination, passing the whole dataset (and therefore not using IncrementalPCA), a procedure explaining the use of Hadoop/PySpark for the infrastructure.
 
-Dimensionality Reduction and Cross Decomposition
+**Dimensionality Reduction and Cross Decomposition**
 
 The first idea would be to use PCA. However PCA lacks explanatory power. And being able to target some specific pages combination was key to CA strategy. Enters Linear and Quadratic Discriminant Analysis. As per scikit documentation “Linear Discriminant Analysis (LDA) tries to identify attributes that account for the most variance between classes. In particular, LDA, in contrast to PCA, is a supervised method, using known class labels.” And indeed CA had class labels with the OCEAN scores.
 
@@ -56,7 +52,7 @@ Linear Discriminant Analysis can only learn linear boundaries, while Quadratic D
 
 Another avenue to explore is cross decomposition algorithms as they find “the fundamental relations between two matrices (X and Y). They are latent variable approaches to modeling the covariance structures in these two spaces. They will try to find the multidimensional direction in the X space that explains the maximum variance direction in the Y space”
 
-scikit tools
+**_scikit tools_**
 
 from sklearn import decomposition
 
@@ -64,7 +60,7 @@ from sklearn.cross_decomposition import PLSCanonical, PLSRegression, CCA
 
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis, QuadraticDiscriminantAnalysis
 
-Linear Models
+**Linear Models**
 
 However, according to Smith’s Medium publication we shall look into Linear models, supported by a quote of Aleksandr Kogan
 
@@ -80,7 +76,7 @@ from sklearn.linear_model import LassoCV
 
 from sklearn.linear_model import LassoLarsCV
 
-The clustering approach
+**The clustering approach**
 
 Finally at a higher, more representative level, clustering could have been a simple(r) approach to produce ‘populations’ and tailor the messages accordingly. It might have missed, however, the granularity that CA was aiming at getting. Though it would have been interesting to see if the linear approaches, applied on subsets of the larger population would have yielded different results (and of course, I don’t discuss here the ethic of the approach).
 
@@ -92,7 +88,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 from sklearn.ensemble import RandomForestClassifier
 
-Last thoughts
+**Last thoughts**
 
 Trying my luck, I searched for ‘Cambridge Analytica’ on Github. You never know… You’ll retrieve 19 repositories, all irrelevant. However some media stories indicate that Aggregate IQ did a lot of algorithmic work on the behalf of CA and their algos leaked. I could not find the but I did not spend a lot of time on the issue either.
 
