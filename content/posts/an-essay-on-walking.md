@@ -2,7 +2,7 @@
 date: 2020-07-31T22:43:31Z
 title: Recreating Cambridge Analytica Python stack
 author: Daniel Roy
-hero_image: "/content/images/heather-shevlin-3B_NrzTjajc-unsplash.jpg"
+hero_image: "/content/images/ca_scikit_01.jpeg"
 
 ---
 Spend time working with scitkit-learn and you’ll be amazed at the sum of knowledge available at the help of only a few lines of code. However, similarly to browsing a restaurant menu made of hundred of pages, the choice can be, quite simply, overwhelming at time. I tried to narrow down a selection based on a case study: to recreate Cambridge Analytica’s Python stack. 
