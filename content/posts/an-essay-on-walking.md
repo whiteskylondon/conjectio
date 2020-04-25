@@ -18,11 +18,13 @@ Data’s far more valuable than models because if you have the data it’s very 
 
 All in all, our intuition is that CA was using scikit-learn in its stack. This intuition is reinforced by the job offer above, for the CA head of Data Science. The job offer was apparently posted in January 2018. We can’t confirm its authenticity, but if it is, that gives us some pretty good insights on the tools used:
 
-scikit-learn
-SciPy
-SQL
-Hadoop
-Spark
+* scikit-learn
+* SciPy 
+* SQL 
+* Hadoop 
+* Spark
+
+
 So, Hadoop was used for storing and retrieving data sets across clusters. Spark was used for data processing and, more precisely, I suppose PySpark. For now, we will leave the Data Storage questions aside and we will focus onto scikit-learn.
 
 Recreating CA method with sci-kit algos
