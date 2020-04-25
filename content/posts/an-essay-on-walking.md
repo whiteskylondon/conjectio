@@ -11,9 +11,9 @@ Spend time working with scitkit-learn and you’ll be amazed at the sum of knowl
 
 To start with, I dived into the following sources.
 
-The starting point was the excellent “_Weapons of Micro Destruction: How Our ‘Likes’ Hijacked Democracy_” post of Dave Smith, posted at the end of 2018 on Towards Data Science: https://towardsdatascience.com/weapons-of-micro-destruction-how-our-likes-hijacked-democracy-c9ab6fcd3d02
-A former job offer “Cambridge Analytica Lead Data Scientist Job Description”: https://pastebin.com/LMKN64Da
-The explicit “Private traits and attributes are predictable from digital records of human behavior” paper, referenced by many sources as a key-stone behind CA’s architecture: https://www.pnas.org/content/pnas/110/15/5802.full.pdf
+* The starting point was the excellent “_Weapons of Micro Destruction: How Our ‘Likes’ Hijacked Democracy_” post of Dave Smith, posted at the end of 2018 on Towards Data Science: https://towardsdatascience.com/weapons-of-micro-destruction-how-our-likes-hijacked-democracy-c9ab6fcd3d02
+* A former job offer “Cambridge Analytica Lead Data Scientist Job Description”: https://pastebin.com/LMKN64Da 
+* The explicit “Private traits and attributes are predictable from digital records of human behavior” paper, referenced by many sources as a key-stone behind CA’s architecture: https://www.pnas.org/content/pnas/110/15/5802.full.pdf
 
 > _Data’s far more valuable than models because if you have the data it’s very easy to build models — because models use just a few well understood statistical techniques to make them. I was able to go from not doing machine learning to knowing what I need to know in one week. That’s all it took. — Aleksandr Kogan_
 
