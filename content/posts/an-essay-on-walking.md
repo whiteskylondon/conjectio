@@ -53,11 +53,7 @@ Another avenue to explore is cross decomposition algorithms as they find “the 
 
 **_scikit tools_**
 
-    from sklearn import decomposition
-
-    from sklearn.cross_decomposition import PLSCanonical, PLSRegression, CCA
-
-    from sklearn.discriminant_analysis import LinearDiscriminantAnalysis, QuadraticDiscriminantAnalysis
+    from sklearn import decompositionfrom sklearn.cross_decomposition import PLSCanonical, PLSRegression, CCAfrom sklearn.discriminant_analysis import LinearDiscriminantAnalysis, QuadraticDiscriminantAnalysis
 
 **Linear Models**
 
