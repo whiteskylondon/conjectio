@@ -36,7 +36,7 @@ https://scikit-learn.org/stable/_downloads/scikit-learn-docs.pdfTo resume: on on
 * Openness to experience (inventive/curious vs. consistent/cautious)
 * Conscientiousness (efficient/organized vs. easy-going/careless)
 * Extroversion (outgoing/energetic vs. solitary/reserved) Agreeableness
-* (friendly/compassionate vs. challenging/detached) Neuroticism
+* (friendly/compassionate vs. challenging/detached) Neuroticism 
 * (sensitive/nervous vs. secure/confident) If curious, you can get yours here https://www.truity.com/test/big-five-personality-test
 
 If we first focus on the first subset of users, i.e. the users replying to the psychometrics survey, we have a large and spare matrix (n users in millions, m pages in the hundreds of thousands corresponding to the x observation) with, for each users, a few hundreds of likes (170 in average in Kosinskia, Stillwella and Graepelb work in 2012) all theses corresponding to the observed Y values. A very sparse data-frame indeed.
@@ -65,13 +65,13 @@ However, according to Smith’s Medium publication we shall look into Linear mod
 
 Linear LASSO, standing for ‘Least Absolute Shrinkage’ and ‘Selection Operator’, is equally easily interpretable. Search LASSO in the scikit documentation and you will get 691 references. Smith’s publication goes in incredible depth into the behaviour of the algorithm and scikit-learn has an range of variants of the LASSO: LassoLars, LassoCV, LassoLarsIC.
 
-scikit tools
+    scikit tools
 
-from sklearn.linear_model import Lasso
+    from sklearn.linear_model import Lasso
 
-from sklearn.linear_model import LassoCV
+    from sklearn.linear_model import LassoCV
 
-from sklearn.linear_model import LassoLarsCV
+    from sklearn.linear_model import LassoLarsCV
 
 **The clustering approach**
 
