@@ -30,18 +30,22 @@ fields:
     name: email
     label: email
   - type: text
-    name: twitter_handle
-    label: twitter_handle
-  - type: text
     name: github_handle
     label: github_handle
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
+    description: <a href="https://www.linkedin.com/in/iamdanielroy/" title="https://www.linkedin.com/in/iamdanielroy/"
+      target="_blank">https://www.linkedin.com/in/iamdanielroy/</a>
 - name: background_color
   type: color
   label: background_color
   config:
     required: false
-    color_format: Hex
+    color_format: RGB
   description: Enter info page background color
-  default: "#B1BCBC"
+  default: rgb(26, 20, 39)
 pages:
 - content/data/info.json
