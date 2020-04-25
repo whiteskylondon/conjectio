@@ -15,7 +15,7 @@ To start with, I dived into the following sources.
 * A former job offer “Cambridge Analytica Lead Data Scientist Job Description”: https://pastebin.com/LMKN64Da 
 * The explicit “Private traits and attributes are predictable from digital records of human behavior” paper, referenced by many sources as a key-stone behind CA’s architecture: https://www.pnas.org/content/pnas/110/15/5802.full.pdf
 
-> _Data’s far more valuable than models because if you have the data it’s very easy to build models — because models use just a few well understood statistical techniques to make them. I was able to go from not doing machine learning to knowing what I need to know in one week. That’s all it took. — Aleksandr Kogan_
+> **_Data’s far more valuable than models because if you have the data it’s very easy to build models — because models use just a few well understood statistical techniques to make them. I was able to go from not doing machine learning to knowing what I need to know in one week. That’s all it took. — Aleksandr Kogan_**
 
 All in all, our intuition is that CA was using scikit-learn in its stack. This intuition is reinforced by the job offer above, for the CA head of Data Science. The job offer was apparently posted in January 2018. We can’t confirm its authenticity, but if it is, that gives us some pretty good insights on the tools used:
 
