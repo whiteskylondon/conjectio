@@ -1,5 +1,5 @@
 ---
-date: 2020-07-31T22:43:31.000+00:00
+date: 2020-04-25T22:43:31Z
 title: Recreating Cambridge Analytica Python stack
 author: Daniel Roy
 hero_image: "/content/images/ca_scikit_02.jpeg"
