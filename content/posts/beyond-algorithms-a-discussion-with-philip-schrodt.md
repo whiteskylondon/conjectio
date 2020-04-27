@@ -1,5 +1,5 @@
 ---
-date: 2020-04-27T17:21:50Z
+date: 2020-04-27T17:21:50.000+00:00
 hero_image: "/content/images/sonja-punz-N47B_zibNGo-unsplash.jpg"
 title: 'Beyond algorithms: a discussion with Philip Schrodt'
 author: Daniel Roy
@@ -7,13 +7,9 @@ author: Daniel Roy
 ---
 It was during the second week of confinement, late at night, in the French countryside, that I discovered the world of ‘event data’. I was contemplating how to apply NLP techniques on 1919 press articles, in order to model the public and equity markets response to the Spanish flu.
 
-One query calling onto another, google finally led me to Philip’s work. It is always quite a moment, when you discover such a body of expertise at the intersection of data, machine learning, epistemology and political history. I went through his presentations, writings - I highly recommend the reading of ‘Patterns, Rules and Learning’. This post is the fruit of the conversations that followed.
+One query calling onto another, google finally led me to Philip’s work. It is always quite a moment, when you discover such a body of expertise at the intersection of data, machine learning, epistemology and political history. I went through his presentations, writings - I highly recommend the reading of ‘[Patterns, Rules and Learning](http://eventdata.parusanalytics.com/papers.dir/Schrodt.PRL.2.0.pdf "Patterns, Rules and Learning")’. This post is the fruit of the conversations that followed.
 
-Before going further, let’s first introduce Philip. To best describe his profession would be to refer to him as a ‘political scientist’. He is well known for his work in automated data and political news event coding. In particular, he built the [Kansas Event Data System](https://en.wikipedia.org/w/index.php?title=Kansas_Event_Data_System&action=edit&redlink=1) (KEDS), that won the “_Outstanding Computer Software Award_” from the [American Political Science Association](https://en.wikipedia.org/wiki/American_Political_Science_Association) in 1995. Fascinatingly, Philip’s work stands at the intersection of apparently disjoint universes. Notably, Schrodt’s work were successfully incorporated into the predictive algorithms used by Lockheed Martin’s Integrated Conflict Early Warning System. In 2014, he left his job as professor at Penn to found Parus Analytics.
-
-[http://philipschrodt.parusanalytics.com/](http://philipschrodt.parusanalytics.com/ "http://philipschrodt.parusanalytics.com/")
-
-[https://github.com/philip-schrodt](https://github.com/philip-schrodt "https://github.com/philip-schrodt")
+Before going further, let’s first introduce Philip. To best describe his profession would be to refer to him as a ‘political scientist’. He is well known for his work in automated data and political news event coding. In particular, he built the [Kansas Event Data System](https://en.wikipedia.org/w/index.php?title=Kansas_Event_Data_System&action=edit&redlink=1) (KEDS), that won the “_Outstanding Computer Software Award_” from the [American Political Science Association](https://en.wikipedia.org/wiki/American_Political_Science_Association) in 1995. Fascinatingly, Philip’s work stands at the intersection of apparently disjoint universes. Notably, Schrodt’s work were successfully incorporated into the predictive algorithms used by Lockheed Martin’s Integrated Conflict Early Warning System. In 2014, he left his job as professor at Penn to found [Parus Analytics](http://philipschrodt.parusanalytics.com/. "Parus Analytics").
 
 _Hi Philip - so I guess my first question would be… why? what was your initial motivation for choosing historical/event data as your field of study? You stand at the intersection of a fairly complex Venn diagram…_
 
@@ -29,7 +25,7 @@ Third is the failure to consider what the intrinsic unpredictability of a proces
 
 “_The longer you look back, the farther you can look forward._” _I love that quote of Winston Churchill. Let’s talk about data sets and particularly long-term event series. At the difference of stock price series, readily available, it is a piece of work in itself to generate events datasets. Is there some unified corpus?_
 
-Well, as you've probably already picked up, yes, I think a lot could be learned -- I spend a *lot* of time reading history -- but at the moment we don't really have much in the way of long historical time series (and, for example, we've got the Correlates of War data that cover 1815 to the present, but that crosses a huge change in technology (mainly the mechanization of warfare) and political organization (colonization and then decolonization) whereas we'd probably learn more if we had the same thing over a period when things were more constant (say the "gunpowder empires" era of about 1400CE - 1820CE or so).
+Well, as you've probably already picked up, yes, I think a lot could be learned -- I spend a _lot_ of time reading history -- but at the moment we don't really have much in the way of long historical time series (and, for example, we've got the Correlates of War data that cover 1815 to the present, but that crosses a huge change in technology (mainly the mechanization of warfare) and political organization (colonization and then decolonization) whereas we'd probably learn more if we had the same thing over a period when things were more constant (say the "gunpowder empires" era of about 1400CE - 1820CE or so).
 
 One of my hopes from Natural Language Processing is people will figure out way to extract these from existing records (say Wikipedia, which isn't flawless but is reasonably good or Financial Times or New York Times), since any such project will be \[way\] too big for human coding (which is not nearly as good, or consistent, as the coders tend to believe...).
 
@@ -45,9 +41,9 @@ _Could it be we are focusing too much to on models mimicking physics properties?
 
 Kahneman's _Thinking Fast and Slow_ -- and more generally, the decades of work he did with Tversky, Slovik and others, now into the second or third (at least) academic generation, would be my go-to place on that. I was familiar with the early work when I wrote Patterns, Rules, and Learning, but it has all gone way, way further, both conceptually and empirically, since then.
 
-<QUOTE> _at pattern recognition - a pleasurable activity: why at biological level In contrast, humans are resistant to logical deductive reasoning and avoid using it whenever possible._’ <QUOTE>
+> Human beings, possessing associative memories, are extraordinarily skillful at pattern recognition. This task they find not only relatively painless, but, to judge from the popularity of crossword puzzles, Trivial Pursuits and Wheel of Fortune, downright pleasurable. In contrast, humans are resistant to logical deductive reasoning and avoid using it whenever possible. 
 
-_On the subject of NLP… a friend pointed to me that natively English speaking countries (Britain, NZ, Australia…) are all islands. Even the US, somehow, is more or less an island, only sharing physical borders with Mexico and Canada, another English speaking country. And at some point during the 19th century two cultures, Spanish and Anglo-Saxon, settled on the Rio Grande. Today, the development gap is flagrant. How do you culturally and linguistically explain this development gap? Spain, despite the wealth it did extract from South America - as Portugal did - as never been able to thrive. Is the English language particularly efficient?_
+_On the subject of NLP… a friend pointed to me that natively English speaking countries (Britain, NZ, Australia…) are all islands. Even the US is more or less an island, only sharing physical borders with Mexico and Canada, another English speaking country. And at some point during the 19th century two cultures, Spanish and Anglo-Saxon, settled on the Rio Grande. Today, the development gap is flagrant. How do you culturally and linguistically explain this development gap? Spain, despite the wealth it did extract from South America - as Portugal did - as never been able to thrive. Is the English language particularly efficient?_
 
 Well, English does have the advantage of being both a very simple language (as I've noted on occasion, the Vikings weren't great at language...) and has an extraordinary vocabulary due to initially merging two languages (Anglo-Saxon and Old Norse), and then the vocabulary of most of a third (French), and then being a complete sponge for every other language it encounters, and thanks to English colonialism, it encountered a lot.
 
