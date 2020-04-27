@@ -18,12 +18,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-yaml",
     {
-      resolve: 'gatsby-plugin-mailchimp',
-      options: {
-        endpoint: 'https://conjecto.us8.list-manage.com/subscribe/post?u=baae4b9996d09996550da09db&amp;id=0359012169', // add your MC list endpoint here; see instructions below
-      },
-    },
-    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "src",
