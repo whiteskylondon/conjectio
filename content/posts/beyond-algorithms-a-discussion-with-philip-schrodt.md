@@ -15,6 +15,8 @@ _Hi Philip - so I guess my first question would be… why? what was your initial
 
 I was trained as an applied mathematician but that approach never took off in mainstream political science (cost/benefit ratio never worked out -- too little payback for the amount of training required, whereas by around 1990 the payoff was definitely there for high-level statistics (and now machine learning) so that, rather than modelling, is where the field went (which is fine: certainly did okay by that), and the very interesting efforts in artificial intelligence back in the 1980s were premature.
 
+![](/content/images/suewz.jpg)
+
 _When first reading you, I was struck by our shared preference for simple modes. During my years in banking, I saw an arm race towards ever more complex models. Complexity justifies many headcount in banks/hedge funds as well as data providers (Reuters, Bloomberg, ‘alternative data’ etc.) In reality a few variables can often efficiently and more elegantly explain and model reality. Why do simple models work? Are series, more correlated than most people believe?_
 
 The first reason is the one you indicate: series are sufficiently correlated that you pretty quickly hit a point where you've got all of the signal that is available.
@@ -28,6 +30,8 @@ Third is the failure to consider what the intrinsic unpredictability of a proces
 Well, as you've probably already picked up, yes, I think a lot could be learned -- I spend a _lot_ of time reading history -- but at the moment we don't really have much in the way of long historical time series (and, for example, we've got the Correlates of War data that cover 1815 to the present, but that crosses a huge change in technology (mainly the mechanization of warfare) and political organization (colonization and then decolonization) whereas we'd probably learn more if we had the same thing over a period when things were more constant (say the "gunpowder empires" era of about 1400CE - 1820CE or so).
 
 One of my hopes from Natural Language Processing is people will figure out way to extract these from existing records (say Wikipedia, which isn't flawless but is reasonably good or Financial Times or New York Times), since any such project will be \[way\] too big for human coding (which is not nearly as good, or consistent, as the coders tend to believe...).
+
+![](/content/images/henry-be-lc7xcWebECc-unsplash.jpg)
 
 Several years ago, for example, I heard a presentation by some guy, I think from Harvard, who had done this with a bunch of biographies of Chinese high-level bureaucrats (Ming dynasty maybe?), that sort of thing. Various people have, in fact, applied older, human-coding methods to some of that diplomatic correspondence (e.g. the pre-WWI and Suez crises, which are quite accessible, and even more so with modern OCR methods) but I can't think of much that has come from it beyond that the qualitative studies. Though also they were mostly using older statistical approaches. The Santa Fe Institute has been doing a lot of stuff on internal political and economic dynamics in Renaissance Florence.
 
