@@ -1,6 +1,6 @@
 ---
 date: 2020-04-27T17:21:50.000+00:00
-hero_image: "/content/images/jj-ying-7JX0-bfiuxQ-unsplash.jpg"
+hero_image: "/content/images/sonja-punz-N47B_zibNGo-unsplash.jpg"
 title: 'Beyond algorithms: a discussion with Philip Schrodt'
 author: Daniel Roy
 
@@ -31,7 +31,7 @@ Well, as you've probably already picked up, yes, I think a lot could be learned 
 
 One of my hopes from Natural Language Processing is people will figure out way to extract these from existing records (say Wikipedia, which isn't flawless but is reasonably good or Financial Times or New York Times), since any such project will be \[way\] too big for human coding (which is not nearly as good, or consistent, as the coders tend to believe...).
 
-![](/content/images/henry-be-lc7xcWebECc-unsplash.jpg)
+![](/content/images/gabriel-sollmann-Y7d265_7i08-unsplash.jpg)
 
 Several years ago, for example, I heard a presentation by some guy, I think from Harvard, who had done this with a bunch of biographies of Chinese high-level bureaucrats (Ming dynasty maybe?), that sort of thing. Various people have, in fact, applied older, human-coding methods to some of that diplomatic correspondence (e.g. the pre-WWI and Suez crises, which are quite accessible, and even more so with modern OCR methods) but I can't think of much that has come from it beyond that the qualitative studies. Though also they were mostly using older statistical approaches. The Santa Fe Institute has been doing a lot of stuff on internal political and economic dynamics in Renaissance Florence.
 
@@ -45,7 +45,7 @@ _Could it be we are focusing too much to on models mimicking physics properties?
 
 Kahneman's _Thinking Fast and Slow_ -- and more generally, the decades of work he did with Tversky, Slovik and others, now into the second or third (at least) academic generation, would be my go-to place on that. I was familiar with the early work when I wrote Patterns, Rules, and Learning, but it has all gone way, way further, both conceptually and empirically, since then.
 
-> **_Human beings, possessing associative memories, are extraordinarily skillful at pattern recognition. This task they find not only relatively painless, but, to judge from the popularity of crossword puzzles, Trivial Pursuits and Wheel of Fortune, downright pleasurable. In contrast, humans are resistant to logical deductive reasoning and avoid using it whenever possible._** 
+> **_Human beings, possessing associative memories, are extraordinarily skillful at pattern recognition. This task they find not only relatively painless, but, to judge from the popularity of crossword puzzles, Trivial Pursuits and Wheel of Fortune, downright pleasurable. In contrast, humans are resistant to logical deductive reasoning and avoid using it whenever possible._**
 
 _On the subject of NLP… a friend pointed to me that natively English speaking countries (Britain, NZ, Australia…) are all islands. Even the US is more or less an island, only sharing physical borders with Mexico and Canada, another English speaking country. And at some point during the 19th century two cultures, Spanish and Anglo-Saxon, settled on the Rio Grande. Today, the development gap is flagrant. How do you culturally and linguistically explain this development gap? Spain, despite the wealth it did extract from South America - as Portugal did - as never been able to thrive. Is the English language particularly efficient?_
 
@@ -66,3 +66,9 @@ Not really, and that always puzzled me. The best explanation I've had is that we
 Also virtually all of the conflict forecasting work to date has been done at the level of the nation-state, though this is changing (e.g. [https://www.pcr.uu.se/research/views/](https://www.pcr.uu.se/research/views/ "https://www.pcr.uu.se/research/views/")) Also I think over the past ten or fifteen years, the point at which this stuff became cheap and easy (due combination of open source data and software, and first very powerful low-cost desktop computers (driven, ironically, by the demands of video games...) and now cloud computing) there's been plenty of other low-hanging fruit (ad placement and product recommendation, for example) that it's taken up most of the available funding and talent.
 
 _To conclude, Philip, as this blog is specialised on Python… what are your recommended librairies?_
+
+I’ll reply first with a digression  on a fundamental problem of too many people being taught to use libraries as a substitute for knowing idiomatic programming and data structures…
+
+That said, Python and R are both absolutely amazing because of the proliferation of specialized libraries. For data science, just the standards everyone is using: Pandas, NumPy, SciPy, Scikit-Learn, MatplotLib for complicated plots and plotly.
+
+For NLP in general, spaCy, and for topic modeling, GenSim. "newspaper3k" is phenomenal for downloading basic news sites (Reuters, Xinhua).
