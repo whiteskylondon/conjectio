@@ -1,5 +1,5 @@
 ---
-date: 2020-04-27T17:21:50.000+00:00
+date: 2020-04-27T23:00:00Z
 hero_image: "/content/images/sonja-punz-N47B_zibNGo-unsplash.jpg"
 title: 'Beyond algorithms: a discussion with Philip Schrodt'
 author: Daniel Roy
