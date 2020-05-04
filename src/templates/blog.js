@@ -5,6 +5,7 @@ import useBlogData from '../static_queries/useBlogData'
 import blogTemplateStyles from "../styles/templates/blog.module.scss"
 //this component handles the blur img & fade-ins
 import Img from 'gatsby-image'
+import SEO from "../components/seo"
 
 export default function Blog(props) {
   const data = props.data.markdownRemark
@@ -25,7 +26,10 @@ export default function Blog(props) {
 
   return (
     <Layout>
-      <article className={blogTemplateStyles.blog}>
+      <SEO
+title={data.frontmatter.title}
+      />
+    <article className={blogTemplateStyles.blog}>
         <figure className={blogTemplateStyles.blog__hero}>
           <Img
             fluid={data.frontmatter.hero_image.childImageSharp.fluid}
