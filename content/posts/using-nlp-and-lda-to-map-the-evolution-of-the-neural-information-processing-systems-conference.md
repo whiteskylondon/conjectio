@@ -16,7 +16,7 @@ At this point, we have to specify we obviously removed the usual stop words but 
 
 ![](/content/images/Plot 3 (2).png)
 
-This first chart has the problem to be distorted by the largest amount of publications in 2017. So we've normalised each subject, by dividing it by the sum of the subjects covered.
+This first chart has the problem to be distorted by the largest amount of publications in 2017. So we've normalised each subject, by dividing it by the sum of the subjects covered
 
 ![](/content/images/Plot 6 (1).png)
 
