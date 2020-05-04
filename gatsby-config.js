@@ -10,7 +10,8 @@ module.exports = {
     about: config.about,
     contact: config.contact,
     primaryColor: config.primary_color,
-    infoData: infoData
+    infoData: infoData,
+    author: 'Daniel Roy'
   },
   plugins: [
     "gatsby-plugin-sass",
