@@ -58,4 +58,4 @@ And the outcome, here too, shows well the underlying reality. Machine Learning i
 
 As a field, the analysis of variations of text data across time seems to be open. On one side stand the time-series librairies and tools (scikit, pandas) and on the other the pure NLP: gensim, nltk and the excellent spaCy.
 
-To give credit were credits are due, this piece of work was freely interpreted from _The Hottest Topics in Machine Learning_ on [Datacamp](https://www.datacamp.com/?tap_a=5644-dce66f&tap_s=880795-41d646&utm_medium=affiliate&utm_source=danielroy1) by @larshulstaert.
+To give credit were credits are due, this piece of work was freely interpreted from _The Hottest Topics in Machine Learning_ on [**Datacamp**](https://www.datacamp.com/?tap_a=5644-dce66f&tap_s=880795-41d646&utm_medium=affiliate&utm_source=danielroy1) by @larshulstaert.
